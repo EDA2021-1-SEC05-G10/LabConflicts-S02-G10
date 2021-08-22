@@ -72,7 +72,7 @@ def loadBookTags():
 Menu principal
 """
 while True:
-    printMenu()
+    print("3- Cargar Book-Tags!!!...")
     inputs = input('Seleccione una opción para continuar\n')
     if int(inputs[0]) == 1:
         print("Cargando información de libros....")
